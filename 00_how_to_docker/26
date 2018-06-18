@@ -1,0 +1,1 @@
+docker service create --name engineering-bay --replicas 2 --network overmind --env DEFAULT_USER=tlaberro --env DEFAULT_PASS=tlaberro 42school/engineering-bay
