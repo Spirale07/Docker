@@ -1,3 +1,4 @@
+mkdir /Users/tlaberro/Abathur
 docker run -dt --name Abathur -v ~/Abathur:/root -p 3000:3000 python:2-slim
 docker exec Abathur pip install flask
 docker exec -ti Abathur sh

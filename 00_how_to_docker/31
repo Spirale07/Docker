@@ -1,1 +1,1 @@
-docker service rm $(docker ps -a -q)
+docker service rm $(docker ps -q)
